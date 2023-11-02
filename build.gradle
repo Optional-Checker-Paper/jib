@@ -8,6 +8,7 @@ plugins {
 
   // apply so that we can collect quality metrics at the root project level
   id 'org.sonarqube' version '4.0.0.2929'
+  id 'org.checkerframework' version '0.6.35' apply false
 }
 
 /* PROJECT DEPENDENCY VERSIONS */
@@ -78,6 +79,7 @@ subprojects {
   apply plugin: 'com.github.sherter.google-java-format'
   apply plugin: 'net.ltgt.errorprone'
   apply plugin: 'jacoco'
+  apply plugin: 'org.checkerframework'
 
   // Guava update breaks unit tests. Workaround mentioned in https://github.com/google/guava/issues/6612#issuecomment-1614992368.
   sourceSets.all {
@@ -173,6 +175,13 @@ subprojects {
     maxErrors = 0
     maxWarnings = 0
   }
+
+  checkerFramework {
+    checkers = [
+            'org.checkerframework.checker.optional.OptionalChecker',
+    ]
+  }
+
   /* CHECKSTYLE */
 
   /* TEST CONFIG */
