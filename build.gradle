@@ -8,6 +8,7 @@ plugins {
 
   // apply so that we can collect quality metrics at the root project level
   id 'org.sonarqube' version '4.0.0.2929'
+  id 'org.checkerframework' version '0.6.35'
 }
 
 /* PROJECT DEPENDENCY VERSIONS */
@@ -78,6 +79,7 @@ subprojects {
   apply plugin: 'com.github.sherter.google-java-format'
   apply plugin: 'net.ltgt.errorprone'
   apply plugin: 'jacoco'
+  apply plugin: 'org.checkerframework'
 
   sourceCompatibility = JavaVersion.VERSION_1_8
   targetCompatibility = JavaVersion.VERSION_1_8
@@ -433,6 +435,17 @@ subprojects {
     dependsOn integrationTest
   }
   /* LOCAL DEVELOPMENT HELPER TASKS */
+
+  checkerFramework {
+    checkers = [
+      'org.checkerframework.checker.optional.OptionalChecker',
+    ]
+    extraJavacArgs = [
+      '-AassumePure',
+      '-AassumeAssertionsAreEnabled',
+      '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno'
+    ]
+  }
 }
 
 /* SONARQUBE */
