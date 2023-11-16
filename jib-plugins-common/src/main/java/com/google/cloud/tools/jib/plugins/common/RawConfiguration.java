@@ -18,6 +18,7 @@ package com.google.cloud.tools.jib.plugins.common;
 
 import com.google.cloud.tools.jib.api.buildplan.FilePermissions;
 import com.google.cloud.tools.jib.api.buildplan.ImageFormat;
+
 import java.nio.file.Path;
 import java.util.List;
 import java.util.Map;
@@ -79,12 +80,14 @@ public interface RawConfiguration {
 
   Set<String> getToTags();
 
+  @SuppressWarnings("optional:optional.collection") // optional-collection : use of optional to wrap a collection
   Optional<List<String>> getEntrypoint();
 
   List<String> getExtraClasspath();
 
   boolean getExpandClasspathDependencies();
 
+  @SuppressWarnings("optional:optional.collection") // optional-collection : use of optional to wrap a collection
   Optional<List<String>> getProgramArguments();
 
   Optional<String> getMainClass();

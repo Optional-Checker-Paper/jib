@@ -67,6 +67,8 @@ import net.ltgt.gradle.errorprone.CheckSeverity
   project(projectName).apply plugin: 'java-library'
 }
 
+apply plugin: 'java'
+
 subprojects {
   group 'com.google.cloud.tools'
 
