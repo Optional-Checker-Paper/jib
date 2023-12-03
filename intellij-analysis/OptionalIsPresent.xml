@@ -1,0 +1,54 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-core/src/main/java/com/google/cloud/tools/jib/builder/steps/PullBaseImageStep.java</file>
+  <line>460</line>
+  <module>jib.jib-core.main</module>
+  <package>com.google.cloud.tools.jib.builder.steps</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.builder.steps.PullBaseImageStep java.util.List&lt;com.google.cloud.tools.jib.image.Image&gt; getCachedBaseImages()" />
+  <problem_class id="OptionalIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Non functional style 'Optional.isPresent()' usage</problem_class>
+  <description>Can be replaced with single expression in functional style</description>
+  <highlighted_element>!cachedImage.isPresent()</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenProjectProperties.java</file>
+  <line>557</line>
+  <module>jib.jib-maven-plugin.main</module>
+  <package>com.google.cloud.tools.jib.maven</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.maven.MavenProjectProperties java.nio.file.Path getJarArtifact()" />
+  <problem_class id="OptionalIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Non functional style 'Optional.isPresent()' usage</problem_class>
+  <description>Can be replaced with single expression in functional style</description>
+  <highlighted_element>classifier.isPresent()</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java</file>
+  <line>146</line>
+  <module>jib.jib-plugins-common.main</module>
+  <package>com.google.cloud.tools.jib.plugins.common</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.plugins.common.PluginConfigurationProcessor com.google.cloud.tools.jib.plugins.common.JibBuildRunner createJibBuildRunnerForDockerDaemonImage(com.google.cloud.tools.jib.plugins.common.RawConfiguration rawConfiguration, com.google.cloud.tools.jib.plugins.common.InferredAuthProvider inferredAuthProvider, com.google.cloud.tools.jib.plugins.common.ProjectProperties projectProperties, com.google.cloud.tools.jib.plugins.common.globalconfig.GlobalConfig globalConfig, com.google.cloud.tools.jib.plugins.common.HelpfulSuggestions helpfulSuggestions)" />
+  <problem_class id="OptionalIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Non functional style 'Optional.isPresent()' usage</problem_class>
+  <description>Can be replaced with single expression in functional style</description>
+  <highlighted_element>dockerExecutable.isPresent()</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>28</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java</file>
+  <line>540</line>
+  <module>jib.jib-plugins-common.main</module>
+  <package>com.google.cloud.tools.jib.plugins.common</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.plugins.common.PluginConfigurationProcessor com.google.cloud.tools.jib.api.JavaContainerBuilder getJavaContainerBuilderWithBaseImage(com.google.cloud.tools.jib.plugins.common.RawConfiguration rawConfiguration, com.google.cloud.tools.jib.plugins.common.ProjectProperties projectProperties, com.google.cloud.tools.jib.plugins.common.InferredAuthProvider inferredAuthProvider)" />
+  <problem_class id="OptionalIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Non functional style 'Optional.isPresent()' usage</problem_class>
+  <description>Can be replaced with single expression in functional style</description>
+  <highlighted_element>dockerExecutable.isPresent()</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>28</length>
+</problem>
+</problems>

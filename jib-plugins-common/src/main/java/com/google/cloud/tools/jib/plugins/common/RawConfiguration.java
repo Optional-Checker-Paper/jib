@@ -79,12 +79,14 @@ public interface RawConfiguration {
 
   Set<String> getToTags();
 
+  @SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
   Optional<List<String>> getEntrypoint();
 
   List<String> getExtraClasspath();
 
   boolean getExpandClasspathDependencies();
 
+  @SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
   Optional<List<String>> getProgramArguments();
 
   Optional<String> getMainClass();

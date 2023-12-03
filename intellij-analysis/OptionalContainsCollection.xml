@@ -1,0 +1,119 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/buildfile/BuildFileSpec.java</file>
+  <line>207</line>
+  <module>jib.jib-cli.main</module>
+  <package>com.google.cloud.tools.jib.cli.buildfile</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.cli.buildfile.BuildFileSpec java.util.Optional&lt;java.util.List&lt;java.lang.String&gt;&gt; getEntrypoint()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;List&lt;String&gt;&lt;/code&gt;</description>
+  <highlighted_element>List&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/buildfile/BuildFileSpec.java</file>
+  <line>211</line>
+  <module>jib.jib-cli.main</module>
+  <package>com.google.cloud.tools.jib.cli.buildfile</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.cli.buildfile.BuildFileSpec java.util.Optional&lt;java.util.List&lt;java.lang.String&gt;&gt; getCmd()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;List&lt;String&gt;&lt;/code&gt;</description>
+  <highlighted_element>List&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java</file>
+  <line>75</line>
+  <module>jib.jib-gradle-plugin.main</module>
+  <package>com.google.cloud.tools.jib.gradle</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.gradle.GradleRawConfiguration java.util.Optional&lt;java.util.List&lt;java.lang.String&gt;&gt; getEntrypoint()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;List&lt;String&gt;&lt;/code&gt;</description>
+  <highlighted_element>List&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java</file>
+  <line>80</line>
+  <module>jib.jib-gradle-plugin.main</module>
+  <package>com.google.cloud.tools.jib.gradle</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.gradle.GradleRawConfiguration java.util.Optional&lt;java.util.List&lt;java.lang.String&gt;&gt; getProgramArguments()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;List&lt;String&gt;&lt;/code&gt;</description>
+  <highlighted_element>List&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenRawConfiguration.java</file>
+  <line>79</line>
+  <module>jib.jib-maven-plugin.main</module>
+  <package>com.google.cloud.tools.jib.maven</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.maven.MavenRawConfiguration java.util.Optional&lt;java.util.List&lt;java.lang.String&gt;&gt; getEntrypoint()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;List&lt;String&gt;&lt;/code&gt;</description>
+  <highlighted_element>List&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenRawConfiguration.java</file>
+  <line>84</line>
+  <module>jib.jib-maven-plugin.main</module>
+  <package>com.google.cloud.tools.jib.maven</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.maven.MavenRawConfiguration java.util.Optional&lt;java.util.List&lt;java.lang.String&gt;&gt; getProgramArguments()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;List&lt;String&gt;&lt;/code&gt;</description>
+  <highlighted_element>List&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java</file>
+  <line>589</line>
+  <module>jib.jib-plugins-common.main</module>
+  <package>com.google.cloud.tools.jib.plugins.common</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.plugins.common.PluginConfigurationProcessor java.util.List&lt;java.lang.String&gt; computeEntrypoint(com.google.cloud.tools.jib.plugins.common.RawConfiguration rawConfiguration, com.google.cloud.tools.jib.plugins.common.ProjectProperties projectProperties, com.google.cloud.tools.jib.api.JibContainerBuilder jibContainerBuilder)" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;List&lt;String&gt;&lt;/code&gt;</description>
+  <highlighted_element>List&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java</file>
+  <line>82</line>
+  <module>jib.jib-plugins-common.main</module>
+  <package>com.google.cloud.tools.jib.plugins.common</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.plugins.common.RawConfiguration java.util.Optional&lt;java.util.List&lt;java.lang.String&gt;&gt; getEntrypoint()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;List&lt;String&gt;&lt;/code&gt;</description>
+  <highlighted_element>List&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java</file>
+  <line>88</line>
+  <module>jib.jib-plugins-common.main</module>
+  <package>com.google.cloud.tools.jib.plugins.common</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.plugins.common.RawConfiguration java.util.Optional&lt;java.util.List&lt;java.lang.String&gt;&gt; getProgramArguments()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;List&lt;String&gt;&lt;/code&gt;</description>
+  <highlighted_element>List&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>12</length>
+</problem>
+</problems>

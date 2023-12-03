@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-core/src/integration-test/java/com/google/cloud/tools/jib/registry/BlobCheckerIntegrationTest.java</file>
+  <line>46</line>
+  <module>jib.jib-core.integrationTest</module>
+  <package>com.google.cloud.tools.jib.registry</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.registry.BlobCheckerIntegrationTest void testCheck_exists()" />
+  <problem_class id="OptionalGetWithoutIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Optional.get() is called without isPresent() check</problem_class>
+  <description>&lt;code&gt;Optional.get()&lt;/code&gt; without 'isPresent()' check</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>73</offset>
+  <length>3</length>
+</problem>
+</problems>

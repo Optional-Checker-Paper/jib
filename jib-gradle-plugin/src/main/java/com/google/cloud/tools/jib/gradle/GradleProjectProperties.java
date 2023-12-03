@@ -489,7 +489,10 @@ public class GradleProjectProperties implements ProjectProperties {
   // Unchecked casting: "getExtraConfiguration().get()" (Object) to Action<T> and "extension"
   // (JibGradlePluginExtension<?>) to JibGradlePluginExtension<T> where T is the extension-defined
   // config type (as requested by "JibGradlePluginExtension.getExtraConfigType()").
-  @SuppressWarnings({"unchecked"})
+  @SuppressWarnings({
+          "unchecked",
+          "OptionalUsedAsFieldOrParameterType" // intellij-suppression-optional-used-as-parameter
+  })
   private <T> ContainerBuildPlan runPluginExtension(
       Optional<Class<T>> extraConfigType,
       JibGradlePluginExtension<?> extension,

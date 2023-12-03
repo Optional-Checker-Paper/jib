@@ -438,6 +438,7 @@ class PullBaseImageStep implements Callable<ImagesAndRegistryClient> {
    * @throws UnlistedPlatformInManifestListException if a cached manifest list has no manifests
    *     matching the configured platform
    */
+  @SuppressWarnings("OptionalIsPresent") // intellij-suppression-optional-is-present
   @VisibleForTesting
   List<Image> getCachedBaseImages()
       throws IOException, CacheCorruptedException, BadContainerConfigurationFormatException,

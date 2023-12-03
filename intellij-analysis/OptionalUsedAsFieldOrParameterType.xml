@@ -1,0 +1,80 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/JibCli.java</file>
+  <line>133</line>
+  <module>jib.jib-cli.main</module>
+  <package>com.google.cloud.tools.jib.cli</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.cli.JibCli void writeImageJson(java.util.Optional&lt;java.nio.file.Path&gt; imageJsonOutputPath, com.google.cloud.tools.jib.api.JibContainer jibContainer)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Path&gt;&lt;/code&gt; used as type for parameter 'imageJsonOutputPath'</description>
+  <highlighted_element>Optional&lt;Path&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-core/src/main/java/com/google/cloud/tools/jib/builder/steps/StepsRunner.java</file>
+  <line>588</line>
+  <module>jib.jib-core.main</module>
+  <package>com.google.cloud.tools.jib.builder.steps</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.builder.steps.StepsRunner boolean isImagePushed(java.util.Optional&lt;com.google.cloud.tools.jib.registry.ManifestAndDigest&lt;com.google.cloud.tools.jib.image.json.ManifestTemplate&gt;&gt; manifestResult)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;ManifestAndDigest&lt;ManifestTemplate&gt;&gt;&lt;/code&gt; used as type for parameter 'manifestResult'</description>
+  <highlighted_element>Optional&lt;ManifestAndDigest&lt;ManifestTemplate&gt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>45</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java</file>
+  <line>494</line>
+  <module>jib.jib-gradle-plugin.main</module>
+  <package>com.google.cloud.tools.jib.gradle</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.gradle.GradleProjectProperties com.google.cloud.tools.jib.api.buildplan.ContainerBuildPlan runPluginExtension(java.util.Optional&lt;java.lang.Class&lt;T&gt;&gt; extraConfigType, com.google.cloud.tools.jib.gradle.extension.JibGradlePluginExtension&lt;?&gt; extension, com.google.cloud.tools.jib.plugins.common.RawConfiguration.ExtensionConfiguration config, com.google.cloud.tools.jib.api.buildplan.ContainerBuildPlan buildPlan)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Class&lt;T&gt;&gt;&lt;/code&gt; used as type for parameter 'extraConfigType'</description>
+  <highlighted_element>Optional&lt;Class&lt;T&gt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-gradle-plugin-extension-api/src/main/java/com/google/cloud/tools/jib/gradle/extension/JibGradlePluginExtension.java</file>
+  <line>64</line>
+  <module>jib.jib-gradle-plugin-extension-api.main</module>
+  <package>com.google.cloud.tools.jib.gradle.extension</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.gradle.extension.JibGradlePluginExtension com.google.cloud.tools.jib.api.buildplan.ContainerBuildPlan extendContainerBuildPlan(com.google.cloud.tools.jib.api.buildplan.ContainerBuildPlan buildPlan, java.util.Map&lt;java.lang.String,java.lang.String&gt; properties, java.util.Optional&lt;T&gt; extraConfig, com.google.cloud.tools.jib.gradle.extension.GradleData gradleData, com.google.cloud.tools.jib.plugins.extension.ExtensionLogger logger)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;T&gt;&lt;/code&gt; used as type for parameter 'extraConfig'</description>
+  <highlighted_element>Optional&lt;T&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenProjectProperties.java</file>
+  <line>639</line>
+  <module>jib.jib-maven-plugin.main</module>
+  <package>com.google.cloud.tools.jib.maven</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.maven.MavenProjectProperties com.google.cloud.tools.jib.api.buildplan.ContainerBuildPlan runPluginExtension(java.util.Optional&lt;java.lang.Class&lt;T&gt;&gt; extraConfigType, com.google.cloud.tools.jib.maven.extension.JibMavenPluginExtension&lt;?&gt; extension, com.google.cloud.tools.jib.plugins.common.RawConfiguration.ExtensionConfiguration config, com.google.cloud.tools.jib.api.buildplan.ContainerBuildPlan buildPlan)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Class&lt;T&gt;&gt;&lt;/code&gt; used as type for parameter 'extraConfigType'</description>
+  <highlighted_element>Optional&lt;Class&lt;T&gt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/jib-maven-plugin-extension-api/src/main/java/com/google/cloud/tools/jib/maven/extension/JibMavenPluginExtension.java</file>
+  <line>64</line>
+  <module>jib.jib-maven-plugin-extension-api.main</module>
+  <package>com.google.cloud.tools.jib.maven.extension</package>
+  <entry_point TYPE="method" FQNAME="com.google.cloud.tools.jib.maven.extension.JibMavenPluginExtension com.google.cloud.tools.jib.api.buildplan.ContainerBuildPlan extendContainerBuildPlan(com.google.cloud.tools.jib.api.buildplan.ContainerBuildPlan buildPlan, java.util.Map&lt;java.lang.String,java.lang.String&gt; properties, java.util.Optional&lt;T&gt; extraConfig, com.google.cloud.tools.jib.maven.extension.MavenData mavenData, com.google.cloud.tools.jib.plugins.extension.ExtensionLogger logger)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;T&gt;&lt;/code&gt; used as type for parameter 'extraConfig'</description>
+  <highlighted_element>Optional&lt;T&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>11</length>
+</problem>
+</problems>

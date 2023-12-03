@@ -511,6 +511,7 @@ public class MavenProjectProperties implements ProjectProperties {
    * @return the path of the JAR
    * @throws IOException if copying jars with non-conforming names fails
    */
+  @SuppressWarnings("OptionalIsPresent") // intellij-suppression-optional-is-present
   @VisibleForTesting
   Path getJarArtifact() throws IOException {
     Optional<String> classifier = Optional.empty();
@@ -634,7 +635,10 @@ public class MavenProjectProperties implements ProjectProperties {
   // Unchecked casting: "getExtraConfiguration()" (Optional<Object>) to Object<T> and "extension"
   // (JibMavenPluginExtension<?>) to JibMavenPluginExtension<T> where T is the extension-defined
   // config type (as requested by "JibMavenPluginExtension.getExtraConfigType()").
-  @SuppressWarnings({"unchecked"})
+  @SuppressWarnings({
+          "unchecked",
+          "OptionalUsedAsFieldOrParameterType" // intellij-suppression-optional-used-as-parameter
+  })
   private <T> ContainerBuildPlan runPluginExtension(
       Optional<Class<T>> extraConfigType,
       JibMavenPluginExtension<?> extension,

@@ -58,6 +58,7 @@ public interface JibMavenPluginExtension<T> extends JibPluginExtension {
    * @return updated build plan
    * @throws JibPluginExtensionException if an error occurs while running the plugin extension
    */
+  @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
   ContainerBuildPlan extendContainerBuildPlan(
       ContainerBuildPlan buildPlan,
       Map<String, String> properties,

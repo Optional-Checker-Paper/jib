@@ -71,12 +71,14 @@ public class GradleRawConfiguration implements RawConfiguration {
     return jibExtension.getTo().getTags();
   }
 
+  @SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
   @Override
   public Optional<List<String>> getEntrypoint() {
     return Optional.ofNullable(jibExtension.getContainer().getEntrypoint());
   }
 
   @Override
+  @SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
   public Optional<List<String>> getProgramArguments() {
     return Optional.ofNullable(jibExtension.getContainer().getArgs());
   }

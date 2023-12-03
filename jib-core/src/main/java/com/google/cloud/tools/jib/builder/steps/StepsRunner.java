@@ -585,6 +585,7 @@ public class StepsRunner {
   }
 
   @VisibleForTesting
+  @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
   boolean isImagePushed(Optional<ManifestAndDigest<ManifestTemplate>> manifestResult) {
 
     return !(JibSystemProperties.skipExistingImages() && manifestResult.isPresent());

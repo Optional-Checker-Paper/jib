@@ -127,6 +127,7 @@ public class PluginConfigurationProcessor {
    * @throws ExtraDirectoryNotFoundException if the extra directory specified for the build is not
    *     found
    */
+  @SuppressWarnings("OptionalIsPresent") // intellij-suppression-optional-is-present
   public static JibBuildRunner createJibBuildRunnerForDockerDaemonImage(
       RawConfiguration rawConfiguration,
       InferredAuthProvider inferredAuthProvider,
@@ -503,6 +504,7 @@ public class PluginConfigurationProcessor {
    * @throws FileNotFoundException if a credential helper can't be found
    */
   @VisibleForTesting
+  @SuppressWarnings("OptionalIsPresent") // intellij-suppression-optional-is-present
   static JavaContainerBuilder getJavaContainerBuilderWithBaseImage(
       RawConfiguration rawConfiguration,
       ProjectProperties projectProperties,
@@ -580,6 +582,7 @@ public class PluginConfigurationProcessor {
    */
   @Nullable
   @VisibleForTesting
+  @SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
   static List<String> computeEntrypoint(
       RawConfiguration rawConfiguration,
       ProjectProperties projectProperties,
