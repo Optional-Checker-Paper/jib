@@ -445,8 +445,10 @@ subprojects {
     extraJavacArgs = [
       '-AassumePure',
       '-AassumeAssertionsAreEnabled',
-      '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno'
-    ]
+      '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
+       '-AwarnUnneededSuppressions'
+     ]
+     excludeTests = true
   }
 }
 
