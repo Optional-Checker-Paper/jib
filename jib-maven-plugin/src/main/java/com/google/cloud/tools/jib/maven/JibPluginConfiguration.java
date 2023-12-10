@@ -380,6 +380,7 @@ public abstract class JibPluginConfiguration extends AbstractMojo {
   private boolean skip;
 
   @Parameter private List<ExtensionParameters> pluginExtensions = Collections.emptyList();
+  @SuppressWarnings("UnnecessaryAssignment")
   @Inject private Set<JibMavenPluginExtension<?>> injectedPluginExtensions = Collections.emptySet();
 
   protected Set<JibMavenPluginExtension<?>> getInjectedPluginExtensions() {
