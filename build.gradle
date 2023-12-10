@@ -67,6 +67,8 @@ import net.ltgt.gradle.errorprone.CheckSeverity
   project(projectName).apply plugin: 'java-library'
 }
 
+apply plugin: 'java'
+
 subprojects {
   group 'com.google.cloud.tools'
 
@@ -443,8 +445,10 @@ subprojects {
     extraJavacArgs = [
       '-AassumePure',
       '-AassumeAssertionsAreEnabled',
-      '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno'
-    ]
+      '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
+       '-AwarnUnneededSuppressions'
+     ]
+     excludeTests = true
   }
 }
 
