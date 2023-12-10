@@ -80,14 +80,14 @@ public interface RawConfiguration {
 
   Set<String> getToTags();
 
-  @SuppressWarnings("optional:optional.collection") // optional-collection : use of optional to wrap a collection
+  @SuppressWarnings("optional:optional.collection") // optional-collection
   Optional<List<String>> getEntrypoint();
 
   List<String> getExtraClasspath();
 
   boolean getExpandClasspathDependencies();
 
-  @SuppressWarnings("optional:optional.collection") // optional-collection : use of optional to wrap a collection
+  @SuppressWarnings("optional:optional.collection") // optional-collection
   Optional<List<String>> getProgramArguments();
 
   Optional<String> getMainClass();

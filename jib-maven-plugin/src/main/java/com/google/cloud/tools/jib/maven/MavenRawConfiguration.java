@@ -76,13 +76,13 @@ public class MavenRawConfiguration implements RawConfiguration {
   }
 
   @Override
-  @SuppressWarnings("optional:optional.collection") // optional-collection : use of optional to wrap a collection
+  @SuppressWarnings("optional:optional.collection") // optional-collection
   public Optional<List<String>> getEntrypoint() {
     return Optional.ofNullable(jibPluginConfiguration.getEntrypoint());
   }
 
   @Override
-  @SuppressWarnings("optional:optional.collection") // optional-collection : use of optional to wrap a collection
+  @SuppressWarnings("optional:optional.collection") // optional-collection
   public Optional<List<String>> getProgramArguments() {
     return Optional.ofNullable(jibPluginConfiguration.getArgs());
   }

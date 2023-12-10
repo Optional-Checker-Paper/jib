@@ -270,7 +270,7 @@ public class PluginConfigurationProcessor {
    * @throws ExtraDirectoryNotFoundException if the extra directory specified for the build is not
    *     found
    */
-  @SuppressWarnings("optional:method.invocation") // used-precondition-library
+  @SuppressWarnings("optional:method.invocation") // Preconditions.checkArgument
   public static JibBuildRunner createJibBuildRunnerForRegistryImage(
       RawConfiguration rawConfiguration,
       InferredAuthProvider inferredAuthProvider,
@@ -584,8 +584,8 @@ public class PluginConfigurationProcessor {
   @Nullable
   @VisibleForTesting
   @SuppressWarnings({
-          "optional:method.invocation",// boolean-variable-type-refinement (see https://github.com/typetools/checker-framework/issues/406)
-          "optional:optional.collection" // optional-collection : use of optional to wrap a collection
+          "optional:method.invocation", // boolean-variable-type-refinement (see https://github.com/typetools/checker-framework/issues/406)
+          "optional:optional.collection" // optional-collection
   })
   static List<String> computeEntrypoint(
       RawConfiguration rawConfiguration,

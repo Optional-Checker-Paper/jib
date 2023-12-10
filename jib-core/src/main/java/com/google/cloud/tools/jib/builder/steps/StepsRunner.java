@@ -255,7 +255,7 @@ public class StepsRunner {
         executorService.submit(new AuthenticatePushStep(buildContext, progressDispatcherFactory));
   }
 
-  @SuppressWarnings("optional:method.invocation") // used-precondition-library
+  @SuppressWarnings("optional:method.invocation") // Preconditions.checkArgument
   private void saveDocker(ProgressEventDispatcher.Factory progressDispatcherFactory) {
     Optional<DockerClient> dockerClient =
         buildContext.getBaseImageConfiguration().getDockerClient();
@@ -270,7 +270,7 @@ public class StepsRunner {
                 tempDirectoryProvider)));
   }
 
-  @SuppressWarnings("optional:method.invocation") // used-precondition-library
+  @SuppressWarnings("optional:method.invocation") // Preconditions.checkArgument
   private void extractTar(ProgressEventDispatcher.Factory progressDispatcherFactory) {
     Optional<Path> tarPath = buildContext.getBaseImageConfiguration().getTarPath();
     Preconditions.checkArgument(tarPath.isPresent());
@@ -588,7 +588,7 @@ public class StepsRunner {
   }
 
   @VisibleForTesting
-  @SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
+  @SuppressWarnings("optional:optional.parameter") // optional-parameter
   boolean isImagePushed(Optional<ManifestAndDigest<ManifestTemplate>> manifestResult) {
 
     return !(JibSystemProperties.skipExistingImages() && manifestResult.isPresent());

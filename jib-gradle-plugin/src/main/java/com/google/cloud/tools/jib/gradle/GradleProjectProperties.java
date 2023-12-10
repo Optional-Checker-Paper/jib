@@ -491,7 +491,7 @@ public class GradleProjectProperties implements ProjectProperties {
   // config type (as requested by "JibGradlePluginExtension.getExtraConfigType()").
   @SuppressWarnings({
           "unchecked",
-          "optional:optional.parameter" // optional-parameter : use of optional as a parameter
+          "optional:optional.parameter" // optional-parameter
   })
   private <T> ContainerBuildPlan runPluginExtension(
       Optional<Class<T>> extraConfigType,
