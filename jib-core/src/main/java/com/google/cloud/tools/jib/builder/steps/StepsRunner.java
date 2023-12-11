@@ -550,7 +550,7 @@ public class StepsRunner {
             });
   }
 
-  @SuppressWarnings("optional:method.invocation") // application-invariant : empty-check implies get() is valid.
+  @SuppressWarnings("optional:method.invocation") // call sequencing: manifestCheckResult.get() is present if checkManifestInTargetRegistry() has already been called, and registryPushSteps() arranges that.
   private Future<BuildResult> pushImage(
       Image baseImage,
       Future<Image> builtImage,
