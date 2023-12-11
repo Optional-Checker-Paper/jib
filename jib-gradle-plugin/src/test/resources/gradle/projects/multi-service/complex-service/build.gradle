@@ -16,7 +16,6 @@ repositories {
   maven {
     url 'file:' + project.projectDir + '/local-m2-repo'
   }
-  maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
 }
 
 jib {

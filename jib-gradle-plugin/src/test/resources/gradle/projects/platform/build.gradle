@@ -1,7 +1,6 @@
 subprojects {
   repositories {
     mavenCentral()
-    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
   }
   tasks.withType(Javadoc).all { enabled = false }
 }
