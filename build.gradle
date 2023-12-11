@@ -462,6 +462,19 @@ subprojects {
   }
   /* LOCAL DEVELOPMENT HELPER TASKS */
 
+  checkerFramework {
+    checkers = [
+      'org.checkerframework.checker.optional.OptionalChecker',
+    ]
+    extraJavacArgs = [
+      '-AassumePure',
+      '-AassumeAssertionsAreEnabled',
+      '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
+      '-AwarnUnneededSuppressions',
+      '-Astubs=checker.jar/guava-assertions.astub',
+     ]
+     excludeTests = true
+  }
 }
 
 /* SONARQUBE */
