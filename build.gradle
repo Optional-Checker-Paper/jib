@@ -471,6 +471,7 @@ subprojects {
       '-AassumeAssertionsAreEnabled',
       '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
       '-AwarnUnneededSuppressions',
+      '-Astubs=checker.jar/guava-assertions.astub',
      ]
      excludeTests = true
   }

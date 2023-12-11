@@ -270,7 +270,6 @@ public class PluginConfigurationProcessor {
    * @throws ExtraDirectoryNotFoundException if the extra directory specified for the build is not
    *     found
    */
-  @SuppressWarnings("optional:method.invocation") // Preconditions.checkArgument
   public static JibBuildRunner createJibBuildRunnerForRegistryImage(
       RawConfiguration rawConfiguration,
       InferredAuthProvider inferredAuthProvider,

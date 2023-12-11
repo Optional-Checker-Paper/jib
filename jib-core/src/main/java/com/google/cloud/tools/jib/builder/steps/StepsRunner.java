@@ -255,7 +255,6 @@ public class StepsRunner {
         executorService.submit(new AuthenticatePushStep(buildContext, progressDispatcherFactory));
   }
 
-  @SuppressWarnings("optional:method.invocation") // Preconditions.checkArgument
   private void saveDocker(ProgressEventDispatcher.Factory progressDispatcherFactory) {
     Optional<DockerClient> dockerClient =
         buildContext.getBaseImageConfiguration().getDockerClient();
@@ -270,7 +269,6 @@ public class StepsRunner {
                 tempDirectoryProvider)));
   }
 
-  @SuppressWarnings("optional:method.invocation") // Preconditions.checkArgument
   private void extractTar(ProgressEventDispatcher.Factory progressDispatcherFactory) {
     Optional<Path> tarPath = buildContext.getBaseImageConfiguration().getTarPath();
     Preconditions.checkArgument(tarPath.isPresent());
