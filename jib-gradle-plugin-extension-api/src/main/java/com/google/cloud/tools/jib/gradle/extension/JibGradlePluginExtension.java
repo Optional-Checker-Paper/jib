@@ -58,7 +58,7 @@ public interface JibGradlePluginExtension<T> extends JibPluginExtension {
    * @return updated build plan
    * @throws JibPluginExtensionException if an error occurs while running the plugin extension
    */
-  @SuppressWarnings("optional:optional.parameter") // optional-parameter
+  @SuppressWarnings("optional:optional.parameter") // style-optional-parameter
   ContainerBuildPlan extendContainerBuildPlan(
       ContainerBuildPlan buildPlan,
       Map<String, String> properties,

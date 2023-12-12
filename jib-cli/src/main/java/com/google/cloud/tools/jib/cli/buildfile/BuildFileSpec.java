@@ -204,12 +204,12 @@ public class BuildFileSpec {
     return Optional.ofNullable(workingDirectory);
   }
 
-  @SuppressWarnings("optional:optional.collection") // optional-collection
+  @SuppressWarnings("optional:optional.collection") // style-optional-collection
   public Optional<List<String>> getEntrypoint() {
     return Optional.ofNullable(entrypoint);
   }
 
-  @SuppressWarnings("optional:optional.collection") // optional-collection
+  @SuppressWarnings("optional:optional.collection") // style-optional-collection
   public Optional<List<String>> getCmd() {
     return Optional.ofNullable(cmd);
   }

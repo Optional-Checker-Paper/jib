@@ -586,7 +586,7 @@ public class StepsRunner {
   }
 
   @VisibleForTesting
-  @SuppressWarnings("optional:optional.parameter") // optional-parameter
+  @SuppressWarnings("optional:optional.parameter") // style-optional-parameter
   boolean isImagePushed(Optional<ManifestAndDigest<ManifestTemplate>> manifestResult) {
 
     return !(JibSystemProperties.skipExistingImages() && manifestResult.isPresent());

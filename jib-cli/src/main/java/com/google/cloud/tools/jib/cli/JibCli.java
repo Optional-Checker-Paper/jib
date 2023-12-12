@@ -130,7 +130,7 @@ public class JibCli {
    * @param jibContainer the {@link JibContainer} to derive image details from
    * @throws IOException if error occurs when writing to the json file.
    */
-  @SuppressWarnings("optional:optional.parameter") // optional-parameter
+  @SuppressWarnings("optional:optional.parameter") // style-optional-parameter
   static void writeImageJson(Optional<Path> imageJsonOutputPath, JibContainer jibContainer)
       throws IOException {
     if (imageJsonOutputPath.isPresent()) {

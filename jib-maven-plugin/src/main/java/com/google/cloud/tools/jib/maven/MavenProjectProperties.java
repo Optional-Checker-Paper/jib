@@ -636,7 +636,7 @@ public class MavenProjectProperties implements ProjectProperties {
   // config type (as requested by "JibMavenPluginExtension.getExtraConfigType()").
   @SuppressWarnings({
           "unchecked",
-          "optional:optional.parameter" // optional-parameter
+          "optional:optional.parameter" // style-optional-parameter
   })
   private <T> ContainerBuildPlan runPluginExtension(
       Optional<Class<T>> extraConfigType,
