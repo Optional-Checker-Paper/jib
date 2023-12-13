@@ -92,13 +92,15 @@ subprojects {
 
   checkerFramework {
     checkers = [
-      'org.checkerframework.checker.optional.OptionalChecker',
+      'org.checkerframework.common.util.count.report.ReportChecker',
     ]
     extraJavacArgs = [
       '-AassumePure',
       '-AassumeAssertionsAreEnabled',
       '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
-       '-AwarnUnneededSuppressions'
+       '-AwarnUnneededSuppressions',
+       '-AReportChecker_warns',
+       "-Astubs=${project.projectDir}/reportoptional.astub",
     ]
     excludeTests = true
     ext.checkerFrameworkVersion = '3.41.1-SNAPSHOT'
@@ -461,20 +463,6 @@ subprojects {
     dependsOn integrationTest
   }
   /* LOCAL DEVELOPMENT HELPER TASKS */
-
-  checkerFramework {
-    checkers = [
-      'org.checkerframework.checker.optional.OptionalChecker',
-    ]
-    extraJavacArgs = [
-      '-AassumePure',
-      '-AassumeAssertionsAreEnabled',
-      '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
-      '-AwarnUnneededSuppressions',
-      '-Astubs=checker.jar/guava-assertions.astub',
-     ]
-     excludeTests = true
-  }
 }
 
 /* SONARQUBE */
@@ -487,3 +475,9 @@ sonarqube {
   }
 }
 /* SONARQUBE */
+
+afterEvaluate {
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xmaxwarns" << "99999"
+    }
+}
