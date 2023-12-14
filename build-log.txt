@@ -1,0 +1,1624 @@
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :jar
+> Task :assemble
+> Task :jib-build-plan:createCheckerFrameworkManifest
+> Task :jib-build-plan:ensureTransitiveDependencyOverrides
+> Task :jib-build-plan:compileJava
+> Task :jib-build-plan:processResources NO-SOURCE
+> Task :jib-build-plan:classes
+> Task :jib-build-plan:jar
+> Task :jib-build-plan:javadoc SKIPPED
+> Task :jib-build-plan:assemble
+> Task :jib-cli:createCheckerFrameworkManifest
+> Task :jib-cli:ensureTransitiveDependencyOverrides
+> Task :jib-cli:generateSources
+> Task :jib-core:createCheckerFrameworkManifest
+> Task :jib-core:ensureTransitiveDependencyOverrides
+
+> Task :jib-core:compileJava
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:141: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Duration> getInterval() {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:141: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Duration> getInterval() {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:142: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(interval);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:142: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(interval);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:142: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(interval);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:151: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Duration> getTimeout() {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:151: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Duration> getTimeout() {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:152: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(timeout);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:152: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(timeout);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:152: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(timeout);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:161: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Duration> getStartPeriod() {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:161: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Duration> getStartPeriod() {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:162: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(startPeriod);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:162: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(startPeriod);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:162: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(startPeriod);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:171: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Integer> getRetries() {
+                           ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:171: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Integer> getRetries() {
+                           ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:172: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(retries);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:172: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(retries);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/DockerHealthCheck.java:172: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(retries);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/BuildContext.java:315: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+          if (!baseImageConfiguration.getImage().getDigest().isPresent()
+                                                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/BuildContext.java:315: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+          if (!baseImageConfiguration.getImage().getDigest().isPresent()
+                                                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/ImageConfiguration.java:149: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<DockerClient> getDockerClient() {
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/ImageConfiguration.java:149: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<DockerClient> getDockerClient() {
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/ImageConfiguration.java:150: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(dockerClient);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/ImageConfiguration.java:150: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(dockerClient);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/ImageConfiguration.java:150: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(dockerClient);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/ImageConfiguration.java:153: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Path> getTarPath() {
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/ImageConfiguration.java:153: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Path> getTarPath() {
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/ImageConfiguration.java:154: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(tarPath);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/ImageConfiguration.java:154: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(tarPath);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/configuration/ImageConfiguration.java:154: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(tarPath);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:191: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<ImageMetadataTemplate> retrieveMetadata(ImageReference imageReference)
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:191: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<ImageMetadataTemplate> retrieveMetadata(ImageReference imageReference)
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:193: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return cacheStorageReader.retrieveMetadata(imageReference);
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:214: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<CachedLayer> retrieve(ImmutableList<FileEntry> layerEntries)
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:216: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<DescriptorDigest> optionalSelectedLayerDigest =
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:217: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        cacheStorageReader.select(LayerEntriesSelector.generateSelector(layerEntries));
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:218: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (!optionalSelectedLayerDigest.isPresent()) {
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:218: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (!optionalSelectedLayerDigest.isPresent()) {
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:214: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<CachedLayer> retrieve(ImmutableList<FileEntry> layerEntries)
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:219: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.empty();
+                           ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:219: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Optional.empty();
+                           ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:219: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Optional.empty();
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:214: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<CachedLayer> retrieve(ImmutableList<FileEntry> layerEntries)
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:222: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return cacheStorageReader.retrieve(optionalSelectedLayerDigest.get());
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:222: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    return cacheStorageReader.retrieve(optionalSelectedLayerDigest.get());
+                                                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:222: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    return cacheStorageReader.retrieve(optionalSelectedLayerDigest.get());
+                                                                  ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:233: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<CachedLayer> retrieve(DescriptorDigest layerDigest)
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:233: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<CachedLayer> retrieve(DescriptorDigest layerDigest)
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:235: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return cacheStorageReader.retrieve(layerDigest);
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:246: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<CachedLayer> retrieveTarLayer(DescriptorDigest diffId)
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:246: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<CachedLayer> retrieveTarLayer(DescriptorDigest diffId)
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:248: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return cacheStorageReader.retrieveTarLayer(diffId);
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:265: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<ContainerConfigurationTemplate> retrieveLocalConfig(DescriptorDigest imageId)
+                                                  ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:265: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<ContainerConfigurationTemplate> retrieveLocalConfig(DescriptorDigest imageId)
+                                                  ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/cache/Cache.java:267: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return cacheStorageReader.retrieveLocalConfig(imageId);
+                                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:260: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<Response> fastPathResponse = followFailoverHistory(httpMethod, url, request);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:260: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<Response> fastPathResponse = followFailoverHistory(httpMethod, url, request);
+                                                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:261: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (fastPathResponse.isPresent()) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:261: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (fastPathResponse.isPresent()) {
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:262: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+      return fastPathResponse.get();
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:262: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+      return fastPathResponse.get();
+                             ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:305: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  private Optional<Response> followFailoverHistory(String httpMethod, URL url, Request request)
+                             ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:305: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  private Optional<Response> followFailoverHistory(String httpMethod, URL url, Request request)
+                             ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:310: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.of(call(httpMethod, toHttp(url), request, getHttpTransport(true), true));
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:310: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return Optional.of(call(httpMethod, toHttp(url), request, getHttpTransport(true), true));
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:310: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return Optional.of(call(httpMethod, toHttp(url), request, getHttpTransport(true), true));
+                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:305: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  private Optional<Response> followFailoverHistory(String httpMethod, URL url, Request request)
+                             ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:312: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.of(call(httpMethod, url, request, getHttpTransport(false), true));
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:312: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return Optional.of(call(httpMethod, url, request, getHttpTransport(false), true));
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:312: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return Optional.of(call(httpMethod, url, request, getHttpTransport(false), true));
+                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:305: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  private Optional<Response> followFailoverHistory(String httpMethod, URL url, Request request)
+                             ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:314: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.empty(); // No history found. Should go for normal execution path.
+                             ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:314: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return Optional.empty(); // No history found. Should go for normal execution path.
+                             ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/http/FailoverHttpClient.java:314: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return Optional.empty(); // No history found. Should go for normal execution path.
+                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:317: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<RegistryAuthenticator> authenticator =
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:318: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        callRegistryEndpoint(
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:321: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (!authenticator.isPresent()) {
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:321: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (!authenticator.isPresent()) {
+                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:326: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    doBearerAuth(readOnlyBearerAuth, authenticator.get());
+                                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:326: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    doBearerAuth(readOnlyBearerAuth, authenticator.get());
+                                                  ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:358: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      Optional<RegistryAuthenticator> authenticator =
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:359: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+          RegistryAuthenticator.fromAuthenticationMethod(
+                                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:361: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (authenticator.isPresent()) {
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:361: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (authenticator.isPresent()) {
+                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:363: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+          return authenticator.get().authenticatePull(credential);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:363: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+          return authenticator.get().authenticatePull(credential);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:365: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        return authenticator.get().authenticatePush(credential);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:365: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        return authenticator.get().authenticatePush(credential);
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:389: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<RegistryAuthenticator> authenticator =
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:390: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        RegistryAuthenticator.fromAuthenticationMethod(
+                                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:392: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (authenticator.isPresent()) {
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:392: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (authenticator.isPresent()) {
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:393: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+      doBearerAuth(true, authenticator.get());
+                                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:393: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+      doBearerAuth(true, authenticator.get());
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:409: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<ManifestAndDigest<ManifestTemplate>> checkManifest(String imageQualifier)
+                                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:409: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<ManifestAndDigest<ManifestTemplate>> checkManifest(String imageQualifier)
+                                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:414: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return callRegistryEndpoint(manifestChecker);
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-core/src/main/java/com/google/cloud/tools/jib/registry/RegistryClient.java:471: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<BlobDescriptor> checkBlob(DescriptorDigest blobDigest)
+                                  ^
+100 warnings
+
+> Task :jib-plugins-common:createCheckerFrameworkManifest
+> Task :jib-plugins-common:ensureTransitiveDependencyOverrides
+
+> Task :jib-plugins-common:compileJava
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<Object> getExtraConfiguration();
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<String> getOsName();
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<String> getArchitectureName();
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<String> getHelperName();
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java:66: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  Optional<String> getFromImage();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java:68: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  Optional<String> getToImage();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java:82: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  Optional<List<String>> getEntrypoint();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java:88: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  Optional<List<String>> getProgramArguments();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java:90: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  Optional<String> getMainClass();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  Optional<String> getUser();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java:106: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  Optional<String> getWorkingDirectory();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java:112: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  Optional<String> getProperty(String propertyName);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/RawConfiguration.java:122: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  Optional<Path> getDockerExecutable();
+                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Future<Optional<String>> checkForUpdate(
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Future<Optional<String>> checkForUpdate(
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return executorService.submit(
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:72: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            performUpdateCheck(
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  static Optional<String> performUpdateCheck(
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  static Optional<String> performUpdateCheck(
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:93: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            return Optional.empty();
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:93: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+            return Optional.empty();
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:93: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+            return Optional.empty();
+                           ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  static Optional<String> performUpdateCheck(
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:122: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+          return Optional.empty();
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:122: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+          return Optional.empty();
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:122: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+          return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  static Optional<String> performUpdateCheck(
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:124: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.of(version.latest);
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:124: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return Optional.of(version.latest);
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:124: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return Optional.of(version.latest);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  static Optional<String> performUpdateCheck(
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:133: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:133: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:133: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:144: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<String> finishUpdateCheck(Future<Optional<String>> updateMessageFuture) {
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:144: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<String> finishUpdateCheck(Future<Optional<String>> updateMessageFuture) {
+                                                                  ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:144: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<String> finishUpdateCheck(Future<Optional<String>> updateMessageFuture) {
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return updateMessageFuture.get();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:144: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<String> finishUpdateCheck(Future<Optional<String>> updateMessageFuture) {
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:154: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:154: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/UpdateChecker.java:154: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:89: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+        .ifPresent(walker::filter);
+                  ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:89: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+        .ifPresent(walker::filter);
+        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:96: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+          Optional<FilePermissions> permissions =
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+              determinePermissions(
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:99: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+          if (permissions.isPresent()) {
+                                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:99: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+          if (permissions.isPresent()) {
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            builder.addEntry(localPath, pathOnContainer, permissions.get(), modificationTime);
+                                                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            builder.addEntry(localPath, pathOnContainer, permissions.get(), modificationTime);
+                                                                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:108: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  private static Optional<FilePermissions> determinePermissions(
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:108: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  private static Optional<FilePermissions> determinePermissions(
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:115: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(permissions);
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:115: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(permissions);
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:115: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(permissions);
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:108: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  private static Optional<FilePermissions> determinePermissions(
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:121: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.of(entry.getValue());
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:121: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return Optional.of(entry.getValue());
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:121: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return Optional.of(entry.getValue());
+                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:108: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  private static Optional<FilePermissions> determinePermissions(
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:124: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:124: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/JavaContainerBuilderHelper.java:124: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<Credential> getImageCredential(
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:60: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+    String commandlineUsername = rawConfiguration.getProperty(usernameProperty).orElse("");
+                                                                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:60: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+    String commandlineUsername = rawConfiguration.getProperty(usernameProperty).orElse("");
+                                                                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+    String commandlinePassword = rawConfiguration.getProperty(passwordProperty).orElse("");
+                                                                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+    String commandlinePassword = rawConfiguration.getProperty(passwordProperty).orElse("");
+                                                                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<Credential> getImageCredential(
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(Credential.from(commandlineUsername, commandlinePassword));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(Credential.from(commandlineUsername, commandlinePassword));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(Credential.from(commandlineUsername, commandlinePassword));
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<Credential> getImageCredential(
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(Credential.from(auth.getUsername(), auth.getPassword()));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(Credential.from(auth.getUsername(), auth.getPassword()));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(Credential.from(auth.getUsername(), auth.getPassword()));
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<Credential> getImageCredential(
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/ConfigurationPropertyValidator.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/InferredAuthProvider.java:31: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  Optional<AuthProperty> inferAuth(String registry) throws InferredAuthException;
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/TimerEventHandler.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    while (timer.getParent().isPresent()) {
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/TimerEventHandler.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    while (timer.getParent().isPresent()) {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/TimerEventHandler.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+      timer = timer.getParent().get();
+                                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/TimerEventHandler.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+      timer = timer.getParent().get();
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:145: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<Path> dockerExecutable = rawConfiguration.getDockerExecutable();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:145: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<Path> dockerExecutable = rawConfiguration.getDockerExecutable();
+                                                                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:146: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (dockerExecutable.isPresent()) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:146: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (dockerExecutable.isPresent()) {
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+      targetImage.setDockerExecutable(dockerExecutable.get());
+                                                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+      targetImage.setDockerExecutable(dockerExecutable.get());
+                                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:284: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<String> image = rawConfiguration.getToImage();
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:284: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<String> image = rawConfiguration.getToImage();
+                                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:285: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    Preconditions.checkArgument(image.isPresent());
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:285: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    Preconditions.checkArgument(image.isPresent());
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:287: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    ImageReference targetImageReference = ImageReference.parse(image.get());
+                                                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:287: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    ImageReference targetImageReference = ImageReference.parse(image.get());
+                                                                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:303: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            rawConfiguration.getProperty(PropertyNames.ALWAYS_CACHE_BASE_IMAGE).orElse("false"));
+                                                                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:303: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            rawConfiguration.getProperty(PropertyNames.ALWAYS_CACHE_BASE_IMAGE).orElse("false"));
+                                                                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-plugins-common/src/main/java/com/google/cloud/tools/jib/plugins/common/PluginConfigurationProcessor.java:363: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            rawConfiguration, ignored -> Optional.empty(), projectProperties);
+                                                       ^
+100 warnings
+
+> Task :jib-plugins-common:processResources NO-SOURCE
+> Task :jib-plugins-common:classes
+> Task :jib-plugins-common:jar
+
+> Task :jib-cli:compileJava
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Build.java:113: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Build.java:113: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Build.java:113: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Build.java:113: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Build.java:113: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Build.java:117: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      updateCheckFuture =
+      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Build.java:118: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+          JibCli.newUpdateChecker(
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Build.java:144: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      JibCli.writeImageJson(commonCliOptions.getImageJsonPath(), jibContainer);
+                                                             ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Build.java:153: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      JibCli.finishUpdateChecker(logger, updateCheckFuture);
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:290: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getCredentialHelper() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:290: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getCredentialHelper() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:292: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(credentials.credentialHelper);
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:292: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(credentials.credentialHelper);
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:292: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(credentials.credentialHelper);
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:290: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getCredentialHelper() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:294: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:294: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:294: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:303: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getToCredentialHelper() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:303: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getToCredentialHelper() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:308: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(credentials.separate.to.credentialHelper);
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:308: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(credentials.separate.to.credentialHelper);
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:308: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(credentials.separate.to.credentialHelper);
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:303: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getToCredentialHelper() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:310: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:310: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:310: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:319: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFromCredentialHelper() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:319: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFromCredentialHelper() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:324: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(credentials.separate.from.credentialHelper);
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:324: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(credentials.separate.from.credentialHelper);
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:324: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(credentials.separate.from.credentialHelper);
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:319: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFromCredentialHelper() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:326: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:326: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:326: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:334: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Credential> getUsernamePassword() {
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:334: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Credential> getUsernamePassword() {
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:336: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:336: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:336: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:334: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Credential> getUsernamePassword() {
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:341: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:341: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:341: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:350: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Credential> getToUsernamePassword() {
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:350: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Credential> getToUsernamePassword() {
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:355: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:355: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:355: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:350: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Credential> getToUsernamePassword() {
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:360: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:360: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:360: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:369: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Credential> getFromUsernamePassword() {
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:369: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Credential> getFromUsernamePassword() {
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:374: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:374: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:374: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:369: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Credential> getFromUsernamePassword() {
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:379: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:379: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:379: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:395: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Path> getBaseImageCache() {
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:395: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Path> getBaseImageCache() {
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:396: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(baseImageCache);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:396: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(baseImageCache);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:396: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(baseImageCache);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:404: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Path> getProjectCache() {
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:404: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Path> getProjectCache() {
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:405: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(projectCache);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:405: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(projectCache);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:405: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(projectCache);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:417: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Path> getImageJsonPath() {
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:417: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Path> getImageJsonPath() {
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:418: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(imageJsonPath);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:418: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(imageJsonPath);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonCliOptions.java:418: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(imageJsonPath);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Jar.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Jar.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Jar.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Jar.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Jar.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Jar.java:101: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      updateCheckFuture =
+      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Jar.java:102: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+          JibCli.newUpdateChecker(
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Jar.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      JibCli.writeImageJson(commonCliOptions.getImageJsonPath(), jibContainer);
+                                                             ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/Jar.java:144: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      JibCli.finishUpdateChecker(logger, updateCheckFuture);
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonContainerConfigCliOptions.java:120: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFrom() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonContainerConfigCliOptions.java:120: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFrom() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonContainerConfigCliOptions.java:121: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(from);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonContainerConfigCliOptions.java:121: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(from);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonContainerConfigCliOptions.java:121: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(from);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonContainerConfigCliOptions.java:154: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getUser() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonContainerConfigCliOptions.java:154: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getUser() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonContainerConfigCliOptions.java:155: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(user);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonContainerConfigCliOptions.java:155: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(user);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonContainerConfigCliOptions.java:155: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(user);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonContainerConfigCliOptions.java:158: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<ImageFormat> getFormat() {
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonContainerConfigCliOptions.java:158: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<ImageFormat> getFormat() {
+                               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-cli/src/main/java/com/google/cloud/tools/jib/cli/CommonContainerConfigCliOptions.java:159: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(format);
+                              ^
+100 warnings
+
+> Task :jib-cli:processResources NO-SOURCE
+> Task :jib-cli:classes
+> Task :jib-cli:jar
+> Task :jib-core:processResources
+> Task :jib-core:classes
+> Task :jib-core:jar
+> Task :jib-cli:startScripts
+> Task :jib-cli:distTar
+> Task :jib-cli:distZip
+> Task :jib-cli:javadoc SKIPPED
+> Task :jib-cli:assemble
+> Task :jib-core:javadoc SKIPPED
+> Task :jib-core:assemble
+> Task :jib-gradle-plugin:createCheckerFrameworkManifest
+> Task :jib-gradle-plugin:ensureTransitiveDependencyOverrides
+
+> Task :jib-gradle-plugin:compileJava
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/CredHelperParameters.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public java.util.Optional<String> getHelperName() {
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/CredHelperParameters.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public java.util.Optional<String> getHelperName() {
+                  ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/CredHelperParameters.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public java.util.Optional<String> getHelperName() {
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/CredHelperParameters.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return java.util.Optional.ofNullable(getHelper());
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/CredHelperParameters.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return java.util.Optional.ofNullable(getHelper());
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/CredHelperParameters.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return java.util.Optional.ofNullable(getHelper());
+                             ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/CredHelperParameters.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return java.util.Optional.ofNullable(getHelper());
+                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/PlatformParameters.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getOsName() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/PlatformParameters.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getOsName() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/PlatformParameters.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(os);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/PlatformParameters.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(os);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/PlatformParameters.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(os);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/PlatformParameters.java:69: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getArchitectureName() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/PlatformParameters.java:69: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getArchitectureName() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/PlatformParameters.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(architecture);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/PlatformParameters.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(architecture);
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/PlatformParameters.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(architecture);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/ExtensionParameters.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public java.util.Optional<Object> getExtraConfiguration() {
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/ExtensionParameters.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public java.util.Optional<Object> getExtraConfiguration() {
+                  ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/ExtensionParameters.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public java.util.Optional<Object> getExtraConfiguration() {
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/ExtensionParameters.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return java.util.Optional.ofNullable(action);
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/ExtensionParameters.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return java.util.Optional.ofNullable(action);
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/ExtensionParameters.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return java.util.Optional.ofNullable(action);
+                             ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/ExtensionParameters.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return java.util.Optional.ofNullable(action);
+                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/BuildTarTask.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture =
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/BuildTarTask.java:136: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        TaskCommon.newUpdateChecker(projectProperties, globalConfig, getLogger());
+                                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/BuildTarTask.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+              ignored -> Optional.empty(),
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/BuildTarTask.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+              ignored -> Optional.empty(),
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/BuildTarTask.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+              ignored -> Optional.empty(),
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/BuildTarTask.java:208: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      TaskCommon.finishUpdateChecker(projectProperties, updateCheckFuture);
+                                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:476: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            runPluginExtension(extension.getExtraConfigType(), extension, config, buildPlan);
+                                                           ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:494: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      Optional<Class<T>> extraConfigType,
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:500: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<Object> configs = config.getExtraConfiguration();
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:500: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<Object> configs = config.getExtraConfiguration();
+                                                           ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:501: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (configs.isPresent()) {
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:501: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (configs.isPresent()) {
+               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:502: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (!extraConfigType.isPresent()) {
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:502: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (!extraConfigType.isPresent()) {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:511: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        Action<T> action = (Action<T>) configs.get();
+                                                  ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:511: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        Action<T> action = (Action<T>) configs.get();
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:512: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        extraConfig = project.getObjects().newInstance(extraConfigType.get(), project);
+                                                                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:512: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        extraConfig = project.getObjects().newInstance(extraConfigType.get(), project);
+                                                                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:522: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+              Optional.ofNullable(extraConfig),
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:522: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+              Optional.ofNullable(extraConfig),
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:522: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+              Optional.ofNullable(extraConfig),
+                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:536: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<JibGradlePluginExtension<?>> found =
+                                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:537: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        extensions.stream().filter(matchesClassName).findFirst();
+                                                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:538: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (!found.isPresent()) {
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:538: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (!found.isPresent()) {
+              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:544: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    return found.get();
+                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleProjectProperties.java:544: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    return found.get();
+                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFromImage() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFromImage() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(jibExtension.getFrom().getImage());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getFrom().getImage());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:41: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getFrom().getImage());
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getToImage() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getToImage() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(jibExtension.getTo().getImage());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getTo().getImage());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getTo().getImage());
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:75: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<List<String>> getEntrypoint() {
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:75: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<List<String>> getEntrypoint() {
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(jibExtension.getContainer().getEntrypoint());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getContainer().getEntrypoint());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getContainer().getEntrypoint());
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<List<String>> getProgramArguments() {
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<List<String>> getProgramArguments() {
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:81: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(jibExtension.getContainer().getArgs());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:81: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getContainer().getArgs());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:81: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getContainer().getArgs());
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getMainClass() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getMainClass() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:96: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(jibExtension.getContainer().getMainClass());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:96: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getContainer().getMainClass());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:96: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getContainer().getMainClass());
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:130: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getUser() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:130: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getUser() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:131: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(jibExtension.getContainer().getUser());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:131: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getContainer().getUser());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:131: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getContainer().getUser());
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getWorkingDirectory() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getWorkingDirectory() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:136: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(jibExtension.getContainer().getWorkingDirectory());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:136: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getContainer().getWorkingDirectory());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:136: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getContainer().getWorkingDirectory());
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:150: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getProperty(String propertyName) {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:150: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getProperty(String propertyName) {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:151: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(System.getProperty(propertyName));
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:151: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(System.getProperty(propertyName));
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:151: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(System.getProperty(propertyName));
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:182: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Path> getDockerExecutable() {
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:182: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<Path> getDockerExecutable() {
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:183: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(jibExtension.getDockerClient().getExecutablePath());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:183: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getDockerClient().getExecutablePath());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/GradleRawConfiguration.java:183: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibExtension.getDockerClient().getExecutablePath());
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/BuildImageTask.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture =
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/BuildImageTask.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        TaskCommon.newUpdateChecker(projectProperties, globalConfig, getLogger());
+                                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/BuildImageTask.java:118: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+              ignored -> Optional.empty(),
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin/src/main/java/com/google/cloud/tools/jib/gradle/BuildImageTask.java:118: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+              ignored -> Optional.empty(),
+                                       ^
+100 warnings
+
+> Task :jib-gradle-plugin:pluginDescriptors
+> Task :jib-gradle-plugin:processResources
+> Task :jib-gradle-plugin:classes
+> Task :jib-gradle-plugin:jar
+> Task :jib-gradle-plugin:javadoc SKIPPED
+> Task :jib-gradle-plugin:javadocJar
+> Task :jib-gradle-plugin:sourcesJar
+> Task :jib-gradle-plugin:assemble
+> Task :jib-gradle-plugin-extension-api:createCheckerFrameworkManifest
+> Task :jib-gradle-plugin-extension-api:ensureTransitiveDependencyOverrides
+
+> Task :jib-gradle-plugin-extension-api:compileJava
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin-extension-api/src/main/java/com/google/cloud/tools/jib/gradle/extension/JibGradlePluginExtension.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  Optional<Class<T>> getExtraConfigType();
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-gradle-plugin-extension-api/src/main/java/com/google/cloud/tools/jib/gradle/extension/JibGradlePluginExtension.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      Optional<T> extraConfig,
+                  ^
+2 warnings
+
+> Task :jib-gradle-plugin-extension-api:processResources NO-SOURCE
+> Task :jib-gradle-plugin-extension-api:classes
+> Task :jib-gradle-plugin-extension-api:jar
+> Task :jib-gradle-plugin-extension-api:javadoc SKIPPED
+> Task :jib-gradle-plugin-extension-api:assemble
+> Task :jib-maven-plugin:createCheckerFrameworkManifest
+> Task :jib-maven-plugin:ensureTransitiveDependencyOverrides
+
+> Task :jib-maven-plugin:compileJava
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:383: warning: [UnnecessaryAssignment] Fields annotated with @Inject should not be manually assigned to, as they should be initialized by a framework. Remove the assignment if a framework is being used, or the annotation if one isn't.
+  @Inject private Set<JibMavenPluginExtension<?>> injectedPluginExtensions = Collections.emptySet();
+                                                  ^
+    (see https://errorprone.info/bugpattern/UnnecessaryAssignment)
+  Did you mean '@Inject private Set<JibMavenPluginExtension<?>> injectedPluginExtensions ;' or 'private Set<JibMavenPluginExtension<?>> injectedPluginExtensions = Collections.emptySet();'?
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:129: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<String> getFile() {
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:129: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<String> getFile() {
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:130: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.ofNullable(file);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:130: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      return Optional.ofNullable(file);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:130: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      return Optional.ofNullable(file);
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:133: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<String> getMode() {
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:133: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<String> getMode() {
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:134: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.ofNullable(mode);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:134: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      return Optional.ofNullable(mode);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:134: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      return Optional.ofNullable(mode);
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:156: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<String> getOsName() {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:156: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<String> getOsName() {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:157: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.ofNullable(os);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:157: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      return Optional.ofNullable(os);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:157: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      return Optional.ofNullable(os);
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:161: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<String> getArchitectureName() {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:161: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<String> getArchitectureName() {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:162: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.ofNullable(architecture);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:162: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      return Optional.ofNullable(architecture);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:162: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      return Optional.ofNullable(architecture);
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:172: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<String> getHelperName() {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:172: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<String> getHelperName() {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:173: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.ofNullable(helper);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:173: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      return Optional.ofNullable(helper);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:173: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      return Optional.ofNullable(helper);
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:346: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<Object> getExtraConfiguration() {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:346: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<Object> getExtraConfiguration() {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:347: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.ofNullable(configuration);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:347: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      return Optional.ofNullable(configuration);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/JibPluginConfiguration.java:347: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      return Optional.ofNullable(configuration);
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  static Future<Optional<String>> newUpdateChecker(
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  static Future<Optional<String>> newUpdateChecker(
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Futures.immediateFuture(Optional.empty());
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Futures.immediateFuture(Optional.empty());
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Futures.immediateFuture(Optional.empty());
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Futures.immediateFuture(Optional.empty());
+                                             ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  static Future<Optional<String>> newUpdateChecker(
+                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return UpdateChecker.checkForUpdate(
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      ProjectProperties projectProperties, Future<Optional<String>> updateCheckFuture) {
+                                                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+        .ifPresent(
+                  ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+        .ifPresent(
+        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:75: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    UpdateChecker.finishUpdateCheck(updateCheckFuture)
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:141: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      Optional<String> file = permission.getFile();
+                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:141: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      Optional<String> file = permission.getFile();
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:142: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      Optional<String> mode = permission.getMode();
+                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:142: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      Optional<String> mode = permission.getMode();
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:143: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (!file.isPresent() || !mode.isPresent()) {
+                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:143: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (!file.isPresent() || !mode.isPresent()) {
+               ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:143: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (!file.isPresent() || !mode.isPresent()) {
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:143: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (!file.isPresent() || !mode.isPresent()) {
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+      permissionsMap.put(file.get(), FilePermissions.fromOctalString(mode.get()));
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+      permissionsMap.put(file.get(), FilePermissions.fromOctalString(mode.get()));
+                             ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+      permissionsMap.put(file.get(), FilePermissions.fromOctalString(mode.get()));
+                                                                             ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MojoCommon.java:147: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+      permissionsMap.put(file.get(), FilePermissions.fromOctalString(mode.get()));
+                                                                         ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenSettingsProxyProvider.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+          .ifPresent(proxies::add);
+                    ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenSettingsProxyProvider.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+          .ifPresent(proxies::add);
+          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildTarMojo.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildTarMojo.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildTarMojo.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildTarMojo.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildTarMojo.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildTarMojo.java:86: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      updateCheckFuture = MojoCommon.newUpdateChecker(projectProperties, globalConfig, getLog());
+      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildTarMojo.java:86: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      updateCheckFuture = MojoCommon.newUpdateChecker(projectProperties, globalConfig, getLog());
+                                                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildTarMojo.java:168: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      MojoCommon.finishUpdateChecker(projectProperties, updateCheckFuture);
+                                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildImageMojo.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildImageMojo.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildImageMojo.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildImageMojo.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildImageMojo.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildImageMojo.java:108: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      updateCheckFuture = MojoCommon.newUpdateChecker(projectProperties, globalConfig, getLog());
+      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildImageMojo.java:108: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      updateCheckFuture = MojoCommon.newUpdateChecker(projectProperties, globalConfig, getLog());
+                                                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildImageMojo.java:190: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      MojoCommon.finishUpdateChecker(projectProperties, updateCheckFuture);
+                                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenSettingsServerCredentials.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AuthProperty> inferAuth(String registry) throws InferredAuthException {
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenSettingsServerCredentials.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AuthProperty> inferAuth(String registry) throws InferredAuthException {
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenSettingsServerCredentials.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.empty();
+                           ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenSettingsServerCredentials.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Optional.empty();
+                           ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenSettingsServerCredentials.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Optional.empty();
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenSettingsServerCredentials.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AuthProperty> inferAuth(String registry) throws InferredAuthException {
+                                ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenSettingsServerCredentials.java:84: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.of(
+                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenSettingsServerCredentials.java:84: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+    return Optional.of(
+                      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenSettingsServerCredentials.java:84: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+    return Optional.of(
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildDockerMojo.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildDockerMojo.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildDockerMojo.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildDockerMojo.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                       ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildDockerMojo.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    Future<Optional<String>> updateCheckFuture = Futures.immediateFuture(Optional.empty());
+                                                                                 ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildDockerMojo.java:94: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      updateCheckFuture = MojoCommon.newUpdateChecker(projectProperties, globalConfig, getLog());
+      ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildDockerMojo.java:94: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      updateCheckFuture = MojoCommon.newUpdateChecker(projectProperties, globalConfig, getLog());
+                                                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/BuildDockerMojo.java:176: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      MojoCommon.finishUpdateChecker(projectProperties, updateCheckFuture);
+                                                        ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenRawConfiguration.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFromImage() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenRawConfiguration.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFromImage() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenRawConfiguration.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(jibPluginConfiguration.getBaseImage());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenRawConfiguration.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibPluginConfiguration.getBaseImage());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenRawConfiguration.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibPluginConfiguration.getBaseImage());
+                   ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenRawConfiguration.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getToImage() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenRawConfiguration.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getToImage() {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenRawConfiguration.java:60: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(jibPluginConfiguration.getTargetImage());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenRawConfiguration.java:60: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibPluginConfiguration.getTargetImage());
+                              ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin/src/main/java/com/google/cloud/tools/jib/maven/MavenRawConfiguration.java:60: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(jibPluginConfiguration.getTargetImage());
+                   ^
+100 warnings
+
+> Task :jib-maven-plugin:generatePomFileForMavenJavaPublication
+> Task :jib-maven-plugin:generateMavenPluginDescriptor
+> Task :jib-maven-plugin:processResources
+> Task :jib-maven-plugin:classes
+> Task :jib-maven-plugin:jar
+> Task :jib-maven-plugin:javadoc SKIPPED
+> Task :jib-maven-plugin:assemble
+> Task :jib-maven-plugin-extension-api:createCheckerFrameworkManifest
+> Task :jib-maven-plugin-extension-api:ensureTransitiveDependencyOverrides
+
+> Task :jib-maven-plugin-extension-api:compileJava
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin-extension-api/src/main/java/com/google/cloud/tools/jib/maven/extension/JibMavenPluginExtension.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  Optional<Class<T>> getExtraConfigType();
+                     ^
+/tmp/experiments/optional-paper-counts-repos/jib/jib-maven-plugin-extension-api/src/main/java/com/google/cloud/tools/jib/maven/extension/JibMavenPluginExtension.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      Optional<T> extraConfig,
+                  ^
+2 warnings
+
+> Task :jib-maven-plugin-extension-api:processResources NO-SOURCE
+> Task :jib-maven-plugin-extension-api:classes
+> Task :jib-maven-plugin-extension-api:jar
+> Task :jib-maven-plugin-extension-api:javadoc SKIPPED
+> Task :jib-maven-plugin-extension-api:assemble
+> Task :jib-plugins-common:javadoc SKIPPED
+> Task :jib-plugins-common:assemble
+> Task :jib-plugins-extension-common:createCheckerFrameworkManifest
+> Task :jib-plugins-extension-common:ensureTransitiveDependencyOverrides
+> Task :jib-plugins-extension-common:compileJava
+> Task :jib-plugins-extension-common:processResources NO-SOURCE
+> Task :jib-plugins-extension-common:classes
+> Task :jib-plugins-extension-common:jar
+> Task :jib-plugins-extension-common:javadoc SKIPPED
+> Task :jib-plugins-extension-common:assemble
+
+BUILD SUCCESSFUL in 40s
+49 actionable tasks: 49 executed
