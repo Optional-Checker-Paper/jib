@@ -550,7 +550,7 @@ public class StepsRunner {
             });
   }
 
-  @SuppressWarnings("optional:method.invocation") // call sequencing: manifestCheckResult.get() is present if checkManifestInTargetRegistry() has already been called, and registryPushSteps() arranges that.
+  @SuppressWarnings("optional:method.invocation") // true positive: manifestCheckResult is a future, and manifestCheckResult.get() is an Optional.  That Optional may be absent because CheckManifestStep.call() may return an empty Optional.
   private Future<BuildResult> pushImage(
       Image baseImage,
       Future<Image> builtImage,
