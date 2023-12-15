@@ -99,6 +99,7 @@ subprojects {
       '-AassumeAssertionsAreEnabled',
       '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
        '-AwarnUnneededSuppressions',
+        "-Xmaxwarns","99999",
        '-AReportChecker_warns',
        "-Astubs=${project.projectDir}/reportoptional.astub",
     ]
