@@ -583,7 +583,6 @@ public class PluginConfigurationProcessor {
   @Nullable
   @VisibleForTesting
   @SuppressWarnings({
-          "optional:method.invocation", // boolean variable type refinement (see https://github.com/typetools/checker-framework/issues/406)
           "optional:optional.collection" // style-optional-collection
   })
   static List<String> computeEntrypoint(
@@ -594,9 +593,8 @@ public class PluginConfigurationProcessor {
           InvalidContainerizingModeException {
     Optional<List<String>> rawEntrypoint = rawConfiguration.getEntrypoint();
     List<String> rawExtraClasspath = rawConfiguration.getExtraClasspath();
-    boolean entrypointDefined = rawEntrypoint.isPresent() && !rawEntrypoint.get().isEmpty();
 
-    if (entrypointDefined
+      if (rawEntrypoint.isPresent() && !rawEntrypoint.get().isEmpty()
         && (rawConfiguration.getMainClass().isPresent()
             || !rawConfiguration.getJvmFlags().isEmpty()
             || !rawExtraClasspath.isEmpty()
@@ -608,7 +606,7 @@ public class PluginConfigurationProcessor {
     }
 
     if (projectProperties.isWarProject()) {
-      if (entrypointDefined) {
+      if (rawEntrypoint.isPresent() && !rawEntrypoint.get().isEmpty()) {
         return rawEntrypoint.get().size() == 1 && "INHERIT".equals(rawEntrypoint.get().get(0))
             ? null
             : rawEntrypoint.get();
@@ -678,7 +676,7 @@ public class PluginConfigurationProcessor {
           MainClassResolver.resolveMainClass(
               rawConfiguration.getMainClass().orElse(null), projectProperties);
     } catch (MainClassInferenceException ex) {
-      if (entrypointDefined) {
+      if (rawEntrypoint.isPresent() && !rawEntrypoint.get().isEmpty()) {
         // We will use the user-given entrypoint, so don't fail.
         mainClass = "could-not-infer-a-main-class";
       } else {
@@ -692,7 +690,7 @@ public class PluginConfigurationProcessor {
       classpathString = "@" + appRoot.resolve(JIB_CLASSPATH_FILE);
     }
 
-    if (entrypointDefined) {
+    if (rawEntrypoint.isPresent() && !rawEntrypoint.get().isEmpty()) {
       return rawEntrypoint.get().size() == 1 && "INHERIT".equals(rawEntrypoint.get().get(0))
           ? null
           : rawEntrypoint.get();
