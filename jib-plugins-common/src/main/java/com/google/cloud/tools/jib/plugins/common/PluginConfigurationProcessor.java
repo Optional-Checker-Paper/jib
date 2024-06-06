@@ -593,8 +593,9 @@ public class PluginConfigurationProcessor {
           InvalidContainerizingModeException {
     Optional<List<String>> rawEntrypoint = rawConfiguration.getEntrypoint();
     List<String> rawExtraClasspath = rawConfiguration.getExtraClasspath();
+    boolean entrypointDefined = rawEntrypoint.isPresent() && !rawEntrypoint.get().isEmpty();
 
-      if (rawEntrypoint.isPresent() && !rawEntrypoint.get().isEmpty()
+    if (entrypointDefined
         && (rawConfiguration.getMainClass().isPresent()
             || !rawConfiguration.getJvmFlags().isEmpty()
             || !rawExtraClasspath.isEmpty()
@@ -606,7 +607,7 @@ public class PluginConfigurationProcessor {
     }
 
     if (projectProperties.isWarProject()) {
-      if (rawEntrypoint.isPresent() && !rawEntrypoint.get().isEmpty()) {
+      if (entrypointDefined) {
         return rawEntrypoint.get().size() == 1 && "INHERIT".equals(rawEntrypoint.get().get(0))
             ? null
             : rawEntrypoint.get();
@@ -676,7 +677,7 @@ public class PluginConfigurationProcessor {
           MainClassResolver.resolveMainClass(
               rawConfiguration.getMainClass().orElse(null), projectProperties);
     } catch (MainClassInferenceException ex) {
-      if (rawEntrypoint.isPresent() && !rawEntrypoint.get().isEmpty()) {
+      if (entrypointDefined) {
         // We will use the user-given entrypoint, so don't fail.
         mainClass = "could-not-infer-a-main-class";
       } else {
@@ -690,7 +691,7 @@ public class PluginConfigurationProcessor {
       classpathString = "@" + appRoot.resolve(JIB_CLASSPATH_FILE);
     }
 
-    if (rawEntrypoint.isPresent() && !rawEntrypoint.get().isEmpty()) {
+    if (entrypointDefined) {
       return rawEntrypoint.get().size() == 1 && "INHERIT".equals(rawEntrypoint.get().get(0))
           ? null
           : rawEntrypoint.get();
